@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="form">
+<h1>Enter a number</h1>   
+<input type="number" id="number"> 
+<h1 id="selected"></h1>
+
+
+    <div id="innerform" >
+
+    <div id="row1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="r11" draggable="true" ondragstart="drag(event)" ></div>
+        <div id="r12" draggable="true" ondragstart="drag(event)" ></div>
+        <div id="r13" draggable="true" ondragstart="drag(event)" ></div>
+        <div id="r14" draggable="true" ondragstart="drag(event)" ></div>
+        <div id="r15" draggable="true" ondragstart="drag(event)" ></div>
+        <div id="r16" draggable="true" ondragstart="drag(event)" ></div>
+        <div id="r17" draggable="true" ondragstart="drag(event)" ></div>
+        <div id="r18" draggable="true" ondragstart="drag(event)" ></div>
+        <div id="r19" draggable="true" ondragstart="drag(event)" ></div>
+    </div>
+    <div id="row2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="r21" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r22" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r23" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r24" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r25" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r26" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r27" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r28" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r29" draggable="true" ondragstart="drag(event)"></div>
+    </div>
+    <div id="row3" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="r31" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r32" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r33" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r34" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r35" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r36" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r37" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r38" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r39" draggable="true" ondragstart="drag(event)"></div>
+    </div>
+    <div id="row4" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="r41" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r42" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r43" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r44" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r45" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r46" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r47" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r48" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r49" draggable="true" ondragstart="drag(event)"></div>
+    </div>
+    <div id="row5" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="r51" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r52" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r53" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r54" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r55" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r56" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r57" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r58" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r59" draggable="true" ondragstart="drag(event)"></div>
+    </div>
+    <div id="row6" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="r61" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r62" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r63" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r64" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r65" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r66" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r67" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r68" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r69" draggable="true" ondragstart="drag(event)"></div>
+    </div>
+    <div id="row7" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="r71" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r72" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r73" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r74" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r75" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r76" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r77" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r78" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r79" draggable="true" ondragstart="drag(event)"></div>
+    </div>
+    <div id="row8" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="r81" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r82" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r83" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r84" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r85" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r86" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r87" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r88" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r89" draggable="true" ondragstart="drag(event)"></div>
+    </div>
+    <div id="row9" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="r91" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r92" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r93" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r94" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r95" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r96" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r97" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r98" draggable="true" ondragstart="drag(event)"></div>
+        <div id="r99" draggable="true" ondragstart="drag(event)"></div>
+    </div>
+   
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

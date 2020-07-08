@@ -1,0 +1,41 @@
+
+#form,#innerform {
+    display: flex;
+  flex-direction: column;
+  
+}
+h1{
+ margin-left: auto;
+ margin-right: auto;   
+}
+input{
+    margin-top: 5px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#row1,#row2,#row3,#row4,#row5,#row6,#row7,#row8,#row9 {
+    display: flex ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ #row1 div,#row2 div,#row3 div,#row4 div,#row5 div,#row6 div,#row7 div,#row8 div,#row9 div
+ {
+     background:black;
+     color:  white;
+     margin:8px;
+     padding: 10px;
+     width: 40px;
+     text-align: center;
+
+}
+
+.hidden {
+    display: none;
+}
+.nhidden{
+ display: inline;
+}
